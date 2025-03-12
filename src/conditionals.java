@@ -9,17 +9,14 @@ public class conditionals {
         System.out.println(question);
         if (randomint<3){
             System.out.println("WHAAAAAT!! OH HEEEEELL NAAAH!!");
-        }
-        if (randomint<5&& randomint >2 ){
+        } else if(randomint<5&& randomint >2 ){
             System.out.println("nerd alert");
-        }
-        if (randomint < 7 && randomint >4 ){
+        } else if (randomint < 7 && randomint >4 ){
             System.out.println("Error 404: unclear");
-        }
-        if ( randomint < 9 && randomint > 6){
+        } else if ( randomint < 9 && randomint > 6){
             System.out.println("i'd say so");
         }
-        if (randomint <11 && randomint > 8){
+        else{
             System.out.println("yes :thumbsupemoji: ;) ");
         }
     }
